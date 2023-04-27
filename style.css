@@ -1,0 +1,104 @@
+:root {
+  --light-purple-clr: #654e92;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-purple-clr);
+  font-family: "Overpass", sans-serif;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  padding-bottom: 10px;
+}
+.palindrome {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+
+#text {
+  padding: 10px;
+  height: 3.125rem;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#text::placeholder {
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid var(--light-purple-clr);
+}
+
+.main {
+  width: 85%;
+  max-width: 600px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 15px 15px 30px 15px;
+  border-radius: 10px;
+}
+
+.btn {
+  font-family: "Overpass", sans-serif;
+  color: #fff;
+  border: 0;
+  margin: 0;
+  outline: none;
+  padding: 13px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: var(--light-purple-clr);
+  font-size: 1rem;
+  letter-spacing: 2px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+  transform: translateY(-5px);
+}
+
+.checker {
+  margin-top: 1.563rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.checker-text span {
+  color: var(--light-purple-clr);
+}
+
+.hidden {
+  display: none;
+}
+@media (min-width: 650px) {
+  body {
+    min-height: 100vh;
+  }
+  h1 {
+    font-size: 1.8rem;
+  }
+  .palindrome {
+    font-size: 1.2rem;
+  }
+  .checker {
+    font-size: 1.2rem;
+  }
+}

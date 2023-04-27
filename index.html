@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palindrome Checker</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- MY CSS STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main">
+        <h1>Palindrome Checker</h1>
+        <p class="palindrome">
+          A palindrome is a word or phrase that reads the same backwards as
+          forwards, e.g. mom, rotator.
+        </p>
+
+        <form>
+          <div>
+            <input id="text" type="text" placeholder="Enter text or number" />
+          </div>
+          <button type="submit" class="btn">Check Palindrome</button>
+        </form>
+
+        <div class="checker hidden">
+          <p class="checker-text"></p>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
