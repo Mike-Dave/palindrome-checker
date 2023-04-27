@@ -90,7 +90,7 @@ input:focus {
 }
 @media (min-width: 650px) {
   body {
-    min-height: 100vh;
+    min-height: 80vh;
   }
   h1 {
     font-size: 1.8rem;
@@ -100,5 +100,10 @@ input:focus {
   }
   .checker {
     font-size: 1.2rem;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    min-height: 100vh;
   }
 }
